@@ -102,13 +102,6 @@ header,
 hgroup,
 menu,
 nav,
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  background-color: #faf9f7;
-}
-
 .header {
   background-color: #474648;
   color: #faf9f7;
@@ -128,6 +121,15 @@ body {
   font-size: 20px;
   line-height: 20px;
   display: flex;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url(./image1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
 }
 
 .contact-info a {
