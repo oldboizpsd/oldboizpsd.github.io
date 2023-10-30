@@ -121,21 +121,13 @@ nav,
   font-size: 20px;
   line-height: 20px;
   display: flex;
-}
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  background-image: url(./image1.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: absolute;
-  background-position-y: 100px;
+  padding: 5px;
 }
 
 .contact-info a {
   text-align: center;
   margin-left: 1000px;
+  display: flex;
 }
 
 .navigation {
@@ -223,4 +215,11 @@ body {
   border: 2px solid #000;
   border-radius: 50px;
   cursor: pointer;
+}
+body {
+  background-image: url(./image1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-position-y: 100px;
 }
